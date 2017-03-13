@@ -15,9 +15,8 @@ PRODUCT_MODEL := Nexus 6P
 
 TARGET_VENDOR := huawei
 
-#Ship Snap Cam && Cam 2
+#Ship Snap Cam
 PRODUCT_PACKAGES += \
-    Camera2 \
     Snap
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
